@@ -7,6 +7,9 @@ import { Mission } from '../components/Mission'
 import { Cards } from '../components/Cards'
 import { Achievements } from '../components/Achievements'
 import { Events } from '../components/Events'
+import { CP } from '../components/CP'
+import { Message } from '../components/Message'
+import { Community } from '../components/Community'
 
 export default function Home() {
   return (
@@ -17,6 +20,9 @@ export default function Home() {
       <Cards />
       <Achievements />
       <Events />
+      <CP />
+      <Message />
+      <Community />
     </>
   )
 }

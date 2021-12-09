@@ -20,7 +20,9 @@ const Image = styled.img`
     `
 
 const Heading = styled.h2`
-    font-size: 25px;
+    font-family: Google Sans;
+    font-size: 24px;
+    line-height: 31px;
     margin-bottom: 5px;
     `
 

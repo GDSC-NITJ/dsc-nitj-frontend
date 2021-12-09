@@ -5,10 +5,10 @@ const HeroContainer = styled.div`
     display: flex;
     justify-content: space-around;
     align-items: center;
-    gap: 50px;
+    gap: 40px;
     background-image: url("HeaderBG.png");
     background-repeat: repeat;
-    @media (max-width: 768px) {
+    @media (max-width: 1050px) {
         gap: 5px;
     }
     `
@@ -57,11 +57,15 @@ const SubHeading = styled.div`
     `
 
 const Image = styled.img`
+    @media (max-width: 900px) {
+        width: 70%;
+        padding: 20px;
+    }
     @media (max-width: 768px) {
         width: 40%;
         padding: 15px;
     }
-    padding: 52px;
+    padding: 54px;
     `
 
 const Button = styled.a`
@@ -71,6 +75,7 @@ const Button = styled.a`
     font-family: Google Sans;
     font-size: 20px;
     line-height: 25px;
+    border-radius: 5px;
     `
 
 const Line = styled.hr`

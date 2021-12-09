@@ -131,7 +131,7 @@ export const Events = () => {
             <EventsSection>
                 <Heading>Catch Us Live</Heading>
                 <EventCard>
-                    <Image src="1.png" />
+                    <Image src="event.png" />
                     <Description>
                         <DescriptionHeading>Android Study Jams</DescriptionHeading>
                         <Text>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sapien venenatis dignissim curabitur fermentum scelerisque. Iaculis neque metus, gravida vulputate enim, posuere blandit. Ultricies consectetur semper eget ut facilisi tristique vehicula scelerisque. Tortor diam adipiscing gravida.</Text>
