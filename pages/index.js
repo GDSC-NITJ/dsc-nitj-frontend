@@ -10,6 +10,8 @@ import { Events } from '../components/Events'
 import { CP } from '../components/CP'
 import { Message } from '../components/Message'
 import { Community } from '../components/Community'
+import {Sponser} from '../components/Sponser'
+import { Contact } from '../components/Contact'
 
 export default function Home() {
   return (
@@ -23,6 +25,8 @@ export default function Home() {
       <CP />
       <Message />
       <Community />
+      <Sponser /> 
+      <Contact />
     </>
   )
 }
