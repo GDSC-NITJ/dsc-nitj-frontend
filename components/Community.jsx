@@ -6,6 +6,7 @@ const CommunitySection = styled.div`
     max-width: 800px;
     align-items: center;
     margin: auto;
+    font-family: 'Roboto', sans-serif;
     `
 
 const Heading = styled.div`
@@ -18,6 +19,7 @@ const Heading = styled.div`
         font-size: 48px;
         line-height: 60px;
     }
+    font-family: 'Roboto', sans-serif;
     `
 
 const SubHeading = styled.div`
@@ -30,6 +32,7 @@ const SubHeading = styled.div`
         font-size: 24px;
         line-height: 32px;
     }
+    font-family: 'Roboto', sans-serif;
     `
 
 const Buttons = styled.div`
@@ -44,6 +47,7 @@ const Buttons = styled.div`
     @media (max-width: 768px) {
         flex-direction: column;
     }
+    font-family: 'Roboto', sans-serif;
     `
 
 const Button = styled.a`
@@ -55,11 +59,13 @@ const Button = styled.a`
     width: 220px;
     align-items: center;
     justify-content: space-around;
+    font-family: 'Roboto', sans-serif;
     `
 
 const Image = styled.img`
     width: ${props => props.width};
     height: ${props => props.height};
+    font-family: 'Roboto', sans-serif;
     `
 
 const Text = styled.div`
@@ -69,6 +75,7 @@ const Text = styled.div`
     font-size: 24px;
     line-height: 31px;
     color: white;
+    font-family: 'Roboto', sans-serif;
     `
 
 const Line = styled.div`
@@ -77,6 +84,7 @@ const Line = styled.div`
     @media (max-width: 768px) {
         display: none;
     }
+    font-family: 'Roboto', sans-serif;
     `
 
 export const Community = () => {

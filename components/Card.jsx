@@ -4,11 +4,13 @@ import styled from "styled-components";
 const CardWrapper = styled.div`
     background-color: white;
     border-radius: 20px;
+    font-family: 'Roboto', sans-serif;
     `
 
 const CardTop = styled.div`
     display: flex;
     gap: 10px;
+    font-family: 'Roboto', sans-serif;
     `
 
 const Image = styled.img`
@@ -17,6 +19,7 @@ const Image = styled.img`
     height: 60px;
     padding: 5px;
     margin: 15px;
+    font-family: 'Roboto', sans-serif;
     `
 
 const Heading = styled.h2`
@@ -24,12 +27,14 @@ const Heading = styled.h2`
     font-size: 24px;
     line-height: 31px;
     margin-bottom: 5px;
+    font-family: 'Roboto', sans-serif;
     `
 
 const Content = styled.p`
     font-size: 15px;
     padding: 5px;
     margin: 5px;
+    font-family: 'Roboto', sans-serif;
     `
 
 export const Card = () => {

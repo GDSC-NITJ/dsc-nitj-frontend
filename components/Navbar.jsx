@@ -14,16 +14,19 @@ const NavbarContainer = styled.div`
     gap: 50px;
     padding-right: 100px;
     }
+    font-family: 'Roboto', sans-serif;
     `
 
 const NavLinks = styled.a`
     padding: 15px;
+    font-family: 'Roboto', sans-serif;
     `
 
 const SignIn = styled.a`
     padding: 15px;
     background-color: white;
     border-radius: 10px;
+    font-family: 'Roboto', sans-serif;
     `
 
 export const Navbar = () => {

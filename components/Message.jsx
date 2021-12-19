@@ -5,6 +5,7 @@ import { MessageCard } from "./MessageCard";
 const MessageSection = styled.div`
     background-color: #34A853;
     padding: 20px;
+    font-family: 'Roboto', sans-serif;
     `
 
 const Heading = styled.div`
@@ -18,6 +19,7 @@ const Heading = styled.div`
         font-size: 40px;
         line-height: 56px;
     }
+    font-family: 'Roboto', sans-serif;
     `
 
 const Messages = styled.div`
@@ -32,6 +34,7 @@ const Messages = styled.div`
     @media (max-width: 768px) {
         grid-template-columns: 1fr;
     }
+    font-family: 'Roboto', sans-serif;
     `
 
 export const Message = () => {
