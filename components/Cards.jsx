@@ -4,6 +4,7 @@ import { Card } from "./Card";
 
 const CardsSectionWrapper = styled.div`
     background-color: #FBBC0599;
+    font-family: 'Roboto', sans-serif;
     `
 const CardsSection = styled.div`
     padding: 50px;
@@ -17,6 +18,7 @@ const CardsSection = styled.div`
     @media (max-width: 768px) {
         grid-template-columns: 1fr;
     }
+    font-family: 'Roboto', sans-serif;
     `
 
 export const Cards = () => {

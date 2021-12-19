@@ -11,6 +11,7 @@ const MessageCardWrapper = styled.div`
         flex-direction: column;
         align-items: center;
     }
+    font-family: 'Roboto', sans-serif;
     `
 
 const Left = styled.div`
@@ -19,6 +20,7 @@ const Left = styled.div`
         padding-bottom: 20px;
         padding-right: 0px;
     }
+    font-family: 'Roboto', sans-serif;
     `
 
 const Name = styled.div`
@@ -27,6 +29,7 @@ const Name = styled.div`
     font-size: 28px;
     line-height: 42px;
     text-align: center;
+    font-family: 'Roboto', sans-serif;
     `
 
 const Position = styled.div`
@@ -36,6 +39,7 @@ const Position = styled.div`
     font-size: 16px;
     line-height: 24px;
     text-align: center;
+    font-family: 'Roboto', sans-serif;
 `
 
 const Image = styled.img`
@@ -44,6 +48,7 @@ const Image = styled.img`
     border-radius: 100%;
     margin-top: -90px;
     margin-bottom: 20px;
+    font-family: 'Roboto', sans-serif;
     `
 
 const Info = styled.div`
@@ -55,6 +60,7 @@ const Info = styled.div`
         line-height: 24px;
         text-align: center;
     }
+    font-family: 'Roboto', sans-serif;
     `
 
 

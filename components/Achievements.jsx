@@ -2,12 +2,14 @@ import React from "react";
 import styled from "styled-components";
 
 const AchievementsSection = styled.div`
+    font-family: 'Roboto', sans-serif;
     padding: 30px;
     `
 
 const TopSection = styled.div`
     max-width: 900px;
     margin: auto;
+    font-family: 'Roboto', sans-serif;
     `
 
 const Heading = styled.div`
@@ -20,6 +22,7 @@ const Heading = styled.div`
         font-size: 40px;
         line-height: 50px;
     }
+    font-family: 'Roboto', sans-serif;
     `
 
 const Text = styled.div`
@@ -32,6 +35,7 @@ const Text = styled.div`
         font-size: 18px;
         line-height: 20px;
     }
+    font-family: 'Roboto', sans-serif;
     `
 
 const NumbersSection = styled.div`
@@ -45,6 +49,7 @@ const NumbersSection = styled.div`
         grid-template-columns: 1fr;
         grid-row-gap: 40px;
     }
+    font-family: 'Roboto', sans-serif;
     `
 
 const Number = styled.div`
@@ -57,6 +62,7 @@ const Number = styled.div`
         font-size: 72px;
         line-height: 80px;
     }
+    font-family: 'Roboto', sans-serif;
     `
 
 const NumberText = styled.div`
@@ -70,6 +76,7 @@ const NumberText = styled.div`
         font-size: 24px;
         line-height: 32px;
     }
+    font-family: 'Roboto', sans-serif;
     `
 
 export const Achievements = () => {

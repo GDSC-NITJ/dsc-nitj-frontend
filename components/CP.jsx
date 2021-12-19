@@ -13,11 +13,13 @@ const CPSection = styled.div`
     @media (max-width: 768px) {
         grid-template-columns: 1fr;
     }
+    font-family: 'Roboto', sans-serif;
     `
 
 const Content = styled.div`
     padding: 10px;
     margin: auto;
+    font-family: 'Roboto', sans-serif;
     `
 
 const Heading = styled.div`
@@ -31,6 +33,7 @@ const Heading = styled.div`
         font-size: 40px;
         line-height: 60px;
     }
+    font-family: 'Roboto', sans-serif;
     `
 
 const Image = styled.img`
@@ -44,6 +47,7 @@ const Image = styled.img`
         height: 300px;
         grid-row: 1 / 2;
     }
+    font-family: 'Roboto', sans-serif;
     `
 
 const Text = styled.div`
@@ -57,6 +61,7 @@ const Text = styled.div`
         font-size: 24px;
         line-height: 24px;
     }
+    font-family: 'Roboto', sans-serif;
     `
 
 const JoinButton = styled.a`
@@ -65,6 +70,7 @@ const JoinButton = styled.a`
     background-color: #4285F4;
     border-radius: 5px;
     padding: 10px;
+    font-family: 'Roboto', sans-serif;
     `
 
 export const CP = () => {

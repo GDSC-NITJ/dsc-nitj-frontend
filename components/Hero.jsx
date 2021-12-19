@@ -11,10 +11,12 @@ const HeroContainer = styled.div`
     @media (max-width: 1050px) {
         gap: 5px;
     }
+    font-family: 'Roboto', sans-serif;
     `
 
 const Wrapper = styled.div`
     background-color: white;
+    font-family: 'Roboto', sans-serif;
     `
 
 const Header = styled.div`
@@ -24,12 +26,14 @@ const Header = styled.div`
     @media (max-width: 768px) {
         padding: 25px;
     }
+    font-family: 'Roboto', sans-serif;
     `
 
 const NameImage = styled.img`
     @media (max-width: 768px) {
         width: 90%;
     }
+    font-family: 'Roboto', sans-serif;
     `
 
 const Heading = styled.div`
@@ -41,10 +45,11 @@ const Heading = styled.div`
         font-size: 18px;
         line-height: 20px;
     }
+    font-family: 'Roboto', sans-serif;
     `
 
 const SubHeading = styled.div`
-    font-family: Raleway;
+    font-family: 'Roboto', sans-serif;
     font-weight: bold;
     font-size: 50px;
     line-height: 59px;
@@ -57,6 +62,7 @@ const SubHeading = styled.div`
     `
 
 const Image = styled.img`
+    font-family: 'Roboto', sans-serif;    
     @media (max-width: 900px) {
         width: 70%;
         padding: 20px;
@@ -72,7 +78,7 @@ const Button = styled.a`
     background-color: #4285F4;
     padding: 10px 30px;
     color: white;
-    font-family: Google Sans;
+    font-family: 'Roboto', sans-serif;
     font-size: 20px;
     line-height: 25px;
     border-radius: 5px;
@@ -83,6 +89,7 @@ const Line = styled.hr`
     border: 0;
     height: 8px;
     background: linear-gradient(to right, red, blue, green, yellow);
+    font-family: 'Roboto', sans-serif;
     `
 
 export const Hero = () => {

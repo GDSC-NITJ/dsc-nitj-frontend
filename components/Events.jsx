@@ -6,6 +6,7 @@ const EventsSection = styled.div`
     @media (max-width: 768px) {
         padding: 10px;
     }
+    font-family: 'Roboto', sans-serif;
     `
 
 const Heading = styled.div`
@@ -18,6 +19,7 @@ const Heading = styled.div`
         font-size: 30px;
         line-height: 40px;
     }
+    font-family: 'Roboto', sans-serif;
     `
 
 const EventCard = styled.div`
@@ -33,6 +35,7 @@ const EventCard = styled.div`
         grid-template-columns: 1fr;
         padding: 10px;
     }
+    font-family: 'Roboto', sans-serif;
     `
 
 const Image = styled.img`
@@ -47,6 +50,7 @@ const Image = styled.img`
         width: 290px;
         height: 250px;
     }
+    font-family: 'Roboto', sans-serif;
     `
 
 const Description = styled.div`
@@ -66,6 +70,7 @@ const Description = styled.div`
         padding: 10px;
         text-align: center;
     }
+    font-family: 'Roboto', sans-serif;
     `
 
 const DescriptionHeading = styled.div`
@@ -77,6 +82,7 @@ const DescriptionHeading = styled.div`
         font-size: 30px;
         line-height: 40px;
     }
+    font-family: 'Roboto', sans-serif;
     `
 
 const Text = styled.div`
@@ -87,6 +93,7 @@ const Text = styled.div`
         font-size: 18px;
         line-height: 24px;
     }
+    font-family: 'Roboto', sans-serif;
     `
 
 const Timing = styled.div`
@@ -99,6 +106,7 @@ const Timing = styled.div`
         font-size: 30px;
         line-height: 40px;
     }
+    font-family: 'Roboto', sans-serif;
     `
 
 const DetailsButton = styled.a`
@@ -109,12 +117,14 @@ const DetailsButton = styled.a`
     background-color: #4285F4;
     border-radius: 5px;
     padding: 10px;
+    font-family: 'Roboto', sans-serif;
     `
 
 const ExploreButtonWrapper = styled.div`
     padding: 30px;
     display: flex;
     align-items: center;
+    font-family: 'Roboto', sans-serif;
     `
 
 const ExploreButton = styled.a`
@@ -123,6 +133,7 @@ const ExploreButton = styled.a`
     background-color: #4285F4;
     border-radius: 5px;
     padding: 10px;
+    font-family: 'Roboto', sans-serif;
     `
 
 export const Events = () => {

@@ -6,6 +6,7 @@ const MissionSection = styled.div`
     margin-left: auto;
     margin-right: auto;
     max-width: 1100px;
+    font-family: 'Roboto', sans-serif;
     `
 
 const Heading = styled.div`
@@ -18,6 +19,7 @@ const Heading = styled.div`
         font-size: 30px;
         line-height: 28px;
     }
+    font-family: 'Roboto', sans-serif;
     `
 
 const Content = styled.div`
@@ -30,6 +32,7 @@ const Content = styled.div`
         font-size: 20px;
         line-height: 20px;
     }
+    font-family: 'Roboto', sans-serif;
     `
 
 export const Mission = () => {
