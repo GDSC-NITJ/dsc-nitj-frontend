@@ -2,16 +2,15 @@ import React from "react";
 import styled from "styled-components";
 
 const Wrapper = styled.div`
-  width:100%;
-  padding: 77px 200px;
+  padding: 50px 0;
   display:flex;
   flex-direction:column;
+  justify-content: center;
+    align-items: center;
   font-family: 'Roboto', sans-serif;
-  overflow-x: hidden;
   @media(max-width:970px){
     justify-content: center;
     align-items: center;
-    padding: 50px 0;
   }
 `;
 const Center = styled.div`
@@ -35,7 +34,7 @@ const FormBox = styled.div`
   display:flex;
   margin-top:15px;
   flex-direction:row;
-  gap: 180px;
+  gap:100px;
   @media(max-width:970px){
     flex-direction:column;
     gap: 0;
@@ -47,7 +46,7 @@ margin-right:40px
 
 const MessageBox = styled.div`
 `;
-const Label = styled.div`
+const Label = styled.label`
 display: flex;
   font-size:24px;
 `;
@@ -72,6 +71,8 @@ border: none;
   height:45px;
   width:400px;
   margin:10px 0; 
+  font-size: 20px;  
+  padding: 12px;
   @media(max-width:560px){
     width:300px;
   }
@@ -80,8 +81,9 @@ const MessageInput = styled.textarea`
   border: none;
   background-color:#C4C4C4;
   border-radius: 5px;
+  padding: 12px;
   margin-top: 10px;
-  cols: 10;
+  font-size: 20px;
   @media(max-width:560px){
     width:300px;
   }
@@ -99,6 +101,7 @@ const SendButton = styled.button`
   border-radius: 5px;
   padding: 10px 20px;
   font-size:20px;
+  cursor: pointer;
   @media(max-width:560px){
     width:300px;
   }
@@ -119,23 +122,24 @@ export const Contact = () => {
             </Left>
             <MessageBox>
               <Label>Message</Label>
-              <MessageInput type="text" />
+              <MessageInput type="text" cols={50} rows={10} />
             </MessageBox>
           </FormBox>
+
+          <Label style={{
+            marginTop: '40px',
+            justifyContent: 'center',
+            alignItems: 'center',
+          }}>Who are you ?</Label>
+          <Bottom>
+            <RadioBox >
+              <Label style={{ fontSize: '16px' }}><RadioInput type="radio" style={{ cursor: 'pointer' }} />Student </Label>
+              <Label style={{ fontSize: '16px' }}><RadioInput type="radio" style={{ cursor: 'pointer' }} />Event Organizer </Label>
+              <Label style={{ fontSize: '16px' }}><RadioInput type="radio" style={{ cursor: 'pointer' }} />Sponser </Label>
+            </RadioBox>
+            <SendButton type="submit">Send</SendButton>
+          </Bottom>
         </form>
-        <Label style={{
-          marginTop: '40px',
-          justifyContent: 'center',
-          alignItems: 'center',
-        }}>Who are you ?</Label>
-        <Bottom>
-          <RadioBox >
-            <Label style={{ fontSize: '16px' }}><RadioInput type="radio" style={{ cursor: 'pointer' }} />Student </Label>
-            <Label style={{ fontSize: '16px' }}><RadioInput type="radio" style={{ cursor: 'pointer' }} />Event Organizer </Label>
-            <Label style={{ fontSize: '16px' }}><RadioInput type="radio" style={{ cursor: 'pointer' }} />Sponser </Label>
-          </RadioBox>
-          <SendButton type="submit">Send</SendButton>
-        </Bottom>
       </Wrapper>
     </Center>
   );
