@@ -11,6 +11,9 @@ const HeroContainer = styled.div`
     @media (max-width: 1050px) {
         gap: 5px;
     }
+    @media (max-width: 768px) {
+        margin-top:70px;
+    }
     font-family: 'Roboto', sans-serif;
     `
 
